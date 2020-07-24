@@ -8,6 +8,13 @@
     .content-item {
         width: 50%;
     }
+    .all-content {
+        width: 70%;
+
+    }
+    .head {
+        width: 100%;
+    }
 }
 
 /* Portrait tablets and small desktops */
@@ -15,11 +22,25 @@
     .content-item {
         width: 50%;
     }
+    .all-content {
+        width: 100%;
+
+    }
+    .head {
+        width: 80%;
+    }
 }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
     .content-item {
+        width: 100%;
+    }
+    .all-content {
+        width: 100%;
+
+    }
+    .head {
         width: 100%;
     }
 }
@@ -29,11 +50,25 @@
     .content-item {
         width: 100%;
     }
+    .all-content {
+        width: 100%;
+
+    }
+    .head {
+        width: 100%;
+    }
 }
 
 
 @media (max-width: 650) {
     .content-item {
+        width: 100%;
+    }
+    .all-content {
+        width: 100%;
+
+    }
+    .head {
         width: 100%;
     }
 }
